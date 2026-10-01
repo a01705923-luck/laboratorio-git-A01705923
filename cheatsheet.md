@@ -6,9 +6,6 @@ pwd
 ls
 * muestra lo que hay en lacarpeta
 
-ls -la
-* muestra tambien archivos ocultos como .git
-
 cd carpeta
 * entras a una carpeta
 
@@ -31,7 +28,7 @@ git --version
 * confirma que Git esta instalado
 
 git config --global --list
-* muestra tu nombre, correo y rama por defecto
+* muestra tu nombre, correo y rama por defecto , datos
 
 git init
 * conviete una carpeta en repositorio local
@@ -58,7 +55,7 @@ git pull
 * baja los cambios del equipo, hacerlo antes de trabajar
 
 git pull --no-edit
-* igual que pull pero sin abrir editor, util si el push fue rechazado
+* igual que pull pero sin abrir editor, sirve si el push fue rechazado
 
 git log --oneline
 * historial resumido, un commit por linea
